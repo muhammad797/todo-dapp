@@ -11,5 +11,5 @@ app.get('/', (_, res) => res.send(`${__dirname}/app/index.html`));
 app.get('*', (_, res) => res.status(404).send('Page not found'));
 
 app.listen(PORT, () => {
-  console.log(`ETB Ethereum ToDo List App running on Port ${PORT}`);
+  console.log(`Ethereum ToDo List App running on Port ${PORT}`);
 });
